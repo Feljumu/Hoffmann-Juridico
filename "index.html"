@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOFFMANN, ANDERSON & HALPERN</title>
+    <link href="https://fonts.cdnjs.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-info {
+            color: white;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 0.9rem;
+            text-align: left;
+            line-height: 1.5;
+        }
+        .content {
+            margin-top: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 10px 0;
+        }
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 1.8rem; }
+        footer {
+            color: #FFD700;
+            font-family: 'Dancing Script', cursive;
+            padding: 20px;
+            margin-top: auto;
+            font-size: 1.4rem;
+            text-align: center;
+            width: 100%;
+            font-style: italic;
+        }
+        .hah {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-info">
+        Av. Libertad #269, of 1305 Viña del Mar<br>
+        notificaciones@inversioneshoffmann.cl<br>
+        (32) 350 14 62
+    </div>
+    <div class="content">
+        <h2>ESTUDIO JURÍDICO</h2>
+        <h1>HOFFMANN, ANDERSON & HALPERN</h1>
+    </div>
+    <footer>
+        Empresa del Grupo <span class="hah">HAH</span> inversiones
+    </footer>
+</body>
+</html>
